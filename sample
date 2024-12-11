@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morikati風デザイン</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #444;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        main {
+            padding: 40px;
+            text-align: center;
+        }
+        main h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        main p {
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 40px;
+        }
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .grid-item {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: left;
+        }
+        .grid-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .grid-item h3 {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+        .grid-item p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Morikati風のデザイン</h1>
+    </header>
+    <nav>
+        <a href="#">ホーム</a>
+        <a href="#">製品</a>
+        <a href="#">サービス</a>
+        <a href="#">お問い合わせ</a>
+    </nav>
+    <main>
+        <h2>ようこそ！</h2>
+        <p>ここはMorikati風のウェブサイトデザインのサンプルページです。</p>
+        <div class="grid">
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/300" alt="サンプル画像">
+                <h3>製品A</h3>
+                <p>製品Aの説明文がここに入ります。</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/300" alt="サンプル画像">
+                <h3>製品B</h3>
+                <p>製品Bの説明文がここに入ります。</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/300" alt="サンプル画像">
+                <h3>製品C</h3>
+                <p>製品Cの説明文がここに入ります。</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Morikati風デザイン. All rights reserved.</p>
+    </footer>
+</body>
+</html>
